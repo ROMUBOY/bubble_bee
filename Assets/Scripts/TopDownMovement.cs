@@ -15,13 +15,19 @@ public class TopDownMovement : MonoBehaviour
     private float lastDashTime;
     private float threshold = 0.1f;
 
+    float auxMoveSpeed;
+
     void Start()
     {
+        auxMoveSpeed = moveSpeed;
         rb = GetComponent<Rigidbody2D>();
     }
 
     void Update()
-    {
+    {  
+        // Define a área de movimento
+        DefineArea(GameObject.FindGameObjectWithTag("Area"));
+
         // Captura o input de movimento (WASD)
         if (!isDashing)
         {
@@ -96,6 +102,18 @@ public class TopDownMovement : MonoBehaviour
 
             // Atualiza a velocidade do Rigidbody para continuar o dash na nova direção
             rb.velocity = dashDirection * dashSpeed;
+        }
+    }
+
+    private void DefineArea(GameObject Area)
+    {
+        if (Vector2.Distance(gameObject.transform.position,Area.transform.position) > (Area.transform.localScale.x/2))
+        {
+            moveSpeed = 0f;
+        }
+        else
+        {
+            moveSpeed = auxMoveSpeed; 
         }
     }
 }
