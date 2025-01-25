@@ -13,6 +13,7 @@ public class TopDownMovement : MonoBehaviour
     private bool isDashing;
     private float dashEndTime;
     private float lastDashTime;
+    private float threshold = 0.1f;
 
     void Start()
     {
@@ -57,7 +58,10 @@ public class TopDownMovement : MonoBehaviour
         else
         {
             // Movimenta o personagem normalmente
-            rb.velocity = movementInput * moveSpeed;
+            if (movementInput.magnitude > threshold)
+                rb.velocity = movementInput * moveSpeed;
+            else
+                rb.velocity = Vector2.zero;
         }
     }
 
