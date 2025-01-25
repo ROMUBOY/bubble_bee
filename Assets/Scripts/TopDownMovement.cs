@@ -107,6 +107,7 @@ public class TopDownMovement : MonoBehaviour
 
     private void DefineArea(GameObject Area)
     {
+        if (!Area) return;
         if (Vector2.Distance(gameObject.transform.position,Area.transform.position) > (Area.transform.localScale.x/2))
         {
             moveSpeed = 0f;
