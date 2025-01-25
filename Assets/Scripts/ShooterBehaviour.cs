@@ -8,12 +8,14 @@ public class ShooterBehaviour : MonoBehaviour {
 
 	public Transform bullet;
 
+	public GameObject SpawnPosition;
+
 	// Use this for initialization
 	void Start () {
 		InvokeRepeating ("Shoot",startTime, frequency);
 	}
 
 	void Shoot(){
-		Instantiate (bullet, this.transform.position, this.transform.rotation);
+		Instantiate (bullet, SpawnPosition.transform.position, this.transform.rotation);
 	}
 }
