@@ -117,7 +117,7 @@ MonoBehaviour:
   dialogue:
   - Oh, hi! :D
   - I'm Bubble Bee.
-  - The nefastous Octobubble steal my sting!
+  - The nefastous Octobubble steal my sting! >:c
   - A Bubble Bee without the sting is just a Bubble :c
   - Let's find out my sting!
   npc:
@@ -126,7 +126,7 @@ MonoBehaviour:
   - {fileID: 4858313949189632866}
   - {fileID: 4858313949189632866}
   - {fileID: 4858313949189632866}
-  delay: 1.5
+  delay: 1
   display: {fileID: 4670382332527707690}
   displayPanel: {fileID: 5816394113111802072}
 --- !u!1 &1481292941204597635
