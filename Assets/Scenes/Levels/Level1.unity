@@ -2597,6 +2597,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7996030247756870444, guid: 657ec9c40a593a243bba4a2a68fe8f4a, type: 3}
   m_PrefabInstance: {fileID: 288898625}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &306579218 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2657115217681123806, guid: f73fe40f3a6c1424ab712aeae061b9db, type: 3}
+  m_PrefabInstance: {fileID: 1721995387}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &306596334
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2902,10 +2907,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_OverrideArea: 1
-  m_Area: 0
-  m_IgnoreFromBuild: 0
-  m_AffectedAgents: ffffffff
 --- !u!1001 &445067375
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3114,6 +3115,30 @@ PrefabInstance:
     - target: {fileID: 2451546201326310350, guid: ff828fe1ae4950d4791896d99cdc0b44, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6907272524911953786, guid: ff828fe1ae4950d4791896d99cdc0b44, type: 3}
+      propertyPath: npc.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6907272524911953786, guid: ff828fe1ae4950d4791896d99cdc0b44, type: 3}
+      propertyPath: dialogue.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6907272524911953786, guid: ff828fe1ae4950d4791896d99cdc0b44, type: 3}
+      propertyPath: dialogue.Array.data[0]
+      value: Oh, hi! I'm Bubble Bee. :D
+      objectReference: {fileID: 0}
+    - target: {fileID: 6907272524911953786, guid: ff828fe1ae4950d4791896d99cdc0b44, type: 3}
+      propertyPath: dialogue.Array.data[1]
+      value: The nefastous Octobubble steal my sting! >:c
+      objectReference: {fileID: 0}
+    - target: {fileID: 6907272524911953786, guid: ff828fe1ae4950d4791896d99cdc0b44, type: 3}
+      propertyPath: dialogue.Array.data[2]
+      value: A Bubble Bee without the sting is just a Bubble :c
+      objectReference: {fileID: 0}
+    - target: {fileID: 6907272524911953786, guid: ff828fe1ae4950d4791896d99cdc0b44, type: 3}
+      propertyPath: dialogue.Array.data[3]
+      value: Let's find out my sting!
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff828fe1ae4950d4791896d99cdc0b44, type: 3}
@@ -3454,7 +3479,7 @@ PrefabInstance:
     - target: {fileID: 1358967760647964841, guid: c41070618c7806b4583ac68798da5ca4, type: 3}
       propertyPath: npc.Array.data[2]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1651613260}
     - target: {fileID: 1358967760647964841, guid: c41070618c7806b4583ac68798da5ca4, type: 3}
       propertyPath: dialogue.Array.size
       value: 4
@@ -3469,11 +3494,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1358967760647964841, guid: c41070618c7806b4583ac68798da5ca4, type: 3}
       propertyPath: dialogue.Array.data[2]
-      value: '[Use Right Mouse Button to dash]'
+      value: Let's push them to the corals!
       objectReference: {fileID: 0}
     - target: {fileID: 1358967760647964841, guid: c41070618c7806b4583ac68798da5ca4, type: 3}
       propertyPath: dialogue.Array.data[3]
-      value: Let's push them to the corals!
+      value: '[Use Right Mouse Button to dash]'
       objectReference: {fileID: 0}
     - target: {fileID: 5550557047107355922, guid: c41070618c7806b4583ac68798da5ca4, type: 3}
       propertyPath: m_RootOrder
@@ -3846,10 +3871,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_OverrideArea: 1
-  m_Area: 1
-  m_IgnoreFromBuild: 0
-  m_AffectedAgents: ffffffff
 --- !u!61 &1303837859
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4316,6 +4337,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7996030247756870444, guid: 657ec9c40a593a243bba4a2a68fe8f4a, type: 3}
   m_PrefabInstance: {fileID: 1507064228}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1651613260 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1039127490311093425, guid: c41070618c7806b4583ac68798da5ca4, type: 3}
+  m_PrefabInstance: {fileID: 931764044}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1659101041
 GameObject:
   m_ObjectHideFlags: 0
@@ -4407,6 +4433,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 163040760}
     m_Modifications:
+    - target: {fileID: -8239634046681338717, guid: f73fe40f3a6c1424ab712aeae061b9db, type: 3}
+      propertyPath: dialogue
+      value: 
+      objectReference: {fileID: 306579218}
     - target: {fileID: 1900652452457866105, guid: f73fe40f3a6c1424ab712aeae061b9db, type: 3}
       propertyPath: m_RootOrder
       value: 0
