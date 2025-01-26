@@ -16,7 +16,7 @@ public class EnemiesContainer : MonoBehaviour
     {
         if (_enemiesNumber <= 0)
         {
-            Invoke("LoadNextScene", 3f);
+            Invoke("LoadNextScene", 1f);
         }
     }
 
