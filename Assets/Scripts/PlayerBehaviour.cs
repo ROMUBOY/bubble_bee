@@ -14,6 +14,16 @@ public class PlayerBehaviour : MonoBehaviour
             camera.gameObject.GetComponent<Camera>().enabled = true;
             Instantiate (PlayerDeath, this.transform.position, this.transform.rotation);
 
+            var dialogues = FindObjectsOfType<DialogueSetup>();
+
+            foreach (var dialog in dialogues)
+            {
+                if (dialog.isActiveAndEnabled)
+                {
+                    dialog.gameObject.SetActive(false);
+                }
+            }
+
             dialogue.SetActive(true);
             dialogue.transform.parent = transform.parent;
             
