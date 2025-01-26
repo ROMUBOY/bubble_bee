@@ -34,4 +34,10 @@ public class EnemyMoviment : MonoBehaviour
             agent.destination = bee.transform.position; 
         }
     }
+
+    public void ChangeColor() {
+        SpriteRenderer renderer = gameObject.GetComponentInChildren<SpriteRenderer>();
+        Random.Range(0, 1);
+        renderer.color = Color.HSVToRGB(Random.value, Random.value, Random.value);
+    }
 }
