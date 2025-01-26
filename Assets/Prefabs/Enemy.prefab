@@ -137,6 +137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d61a23b1ad9ccc34bb667a842e2d1695, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Pop: {fileID: 615472751462543592, guid: de117b91167e9a24cbb7bb8a31097883, type: 3}
 --- !u!114 &-9031059572735397535
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -149,4 +150,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 536d86878ac50154da52ebc6fc8c03d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Pop: {fileID: 615472751462543592, guid: de117b91167e9a24cbb7bb8a31097883, type: 3}
