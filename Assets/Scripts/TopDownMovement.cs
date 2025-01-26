@@ -1,3 +1,4 @@
+using DG.Tweening;
 using UnityEngine;
 
 public class TopDownMovement : MonoBehaviour
@@ -14,6 +15,9 @@ public class TopDownMovement : MonoBehaviour
     private float dashEndTime;
     private float lastDashTime;
     private float threshold = 0.1f;
+
+    [SerializeField] bool flipGraphics;
+    [SerializeField] Transform graphics;
 
     float auxMoveSpeed;
 
@@ -64,11 +68,15 @@ public class TopDownMovement : MonoBehaviour
         else
         {
             // Movimenta o personagem normalmente
-            if (movementInput.magnitude > threshold)
+            if (movementInput.magnitude > threshold){
                 rb.velocity = movementInput * moveSpeed;
-            else
+            }else
                 rb.velocity = Vector2.zero;
         }
+
+        // Efeito de Paper Mario para flipar a arte da abolha
+        if (flipGraphics && Mathf.Sign(rb.velocity.x) != 0 && (movementInput.magnitude > threshold || isDashing))
+            graphics.DOScaleX(-Mathf.Sign(rb.velocity.x), 0.1f);
     }
 
     private void StartDash()

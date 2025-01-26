@@ -89,6 +89,8 @@ MonoBehaviour:
   dashSpeed: 20
   dashDuration: 0.2
   dashCooldown: 0.1
+  flipGraphics: 1
+  graphics: {fileID: 1900652452644282116}
 --- !u!114 &181128153590677635
 MonoBehaviour:
   m_ObjectHideFlags: 0
