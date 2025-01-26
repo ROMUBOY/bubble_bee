@@ -106,7 +106,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerDeath: {fileID: 1232047784172268316, guid: 26f371867824b0a4ea334f22cb00c7c0, type: 3}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 2657115217681123806}
+  Pop: {fileID: 615472751462543592, guid: de117b91167e9a24cbb7bb8a31097883, type: 3}
 --- !u!1 &1900652452644282117
 GameObject:
   m_ObjectHideFlags: 0
@@ -405,5 +406,10 @@ PrefabInstance:
 --- !u!224 &708739488581998314 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2451546201326310350, guid: ff828fe1ae4950d4791896d99cdc0b44, type: 3}
+  m_PrefabInstance: {fileID: 3157118477944980772}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2657115217681123806 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1085278111166139642, guid: ff828fe1ae4950d4791896d99cdc0b44, type: 3}
   m_PrefabInstance: {fileID: 3157118477944980772}
   m_PrefabAsset: {fileID: 0}
