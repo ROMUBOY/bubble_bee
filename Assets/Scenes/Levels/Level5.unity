@@ -3750,6 +3750,112 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &976237017
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1358967760647964841, guid: c41070618c7806b4583ac68798da5ca4, type: 3}
+      propertyPath: npc.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1358967760647964841, guid: c41070618c7806b4583ac68798da5ca4, type: 3}
+      propertyPath: npc.Array.data[0]
+      value: 
+      objectReference: {fileID: 976237018}
+    - target: {fileID: 1358967760647964841, guid: c41070618c7806b4583ac68798da5ca4, type: 3}
+      propertyPath: dialogue.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1358967760647964841, guid: c41070618c7806b4583ac68798da5ca4, type: 3}
+      propertyPath: dialogue.Array.data[0]
+      value: That's a lot of enemies.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1358967760647964841, guid: c41070618c7806b4583ac68798da5ca4, type: 3}
+      propertyPath: dialogue.Array.data[1]
+      value: We need to pop all of them to continue. :c
+      objectReference: {fileID: 0}
+    - target: {fileID: 1358967760647964841, guid: c41070618c7806b4583ac68798da5ca4, type: 3}
+      propertyPath: dialogue.Array.data[2]
+      value: At least they don't have any superpower... Right?
+      objectReference: {fileID: 0}
+    - target: {fileID: 1358967760647964841, guid: c41070618c7806b4583ac68798da5ca4, type: 3}
+      propertyPath: dialogue.Array.data[3]
+      value: This enemy can shoot projectiles!? :o
+      objectReference: {fileID: 0}
+    - target: {fileID: 5550557047107355922, guid: c41070618c7806b4583ac68798da5ca4, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5550557047107355922, guid: c41070618c7806b4583ac68798da5ca4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 5550557047107355922, guid: c41070618c7806b4583ac68798da5ca4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -12.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 5550557047107355922, guid: c41070618c7806b4583ac68798da5ca4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5550557047107355922, guid: c41070618c7806b4583ac68798da5ca4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5550557047107355922, guid: c41070618c7806b4583ac68798da5ca4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5550557047107355922, guid: c41070618c7806b4583ac68798da5ca4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5550557047107355922, guid: c41070618c7806b4583ac68798da5ca4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5550557047107355922, guid: c41070618c7806b4583ac68798da5ca4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5550557047107355922, guid: c41070618c7806b4583ac68798da5ca4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5550557047107355922, guid: c41070618c7806b4583ac68798da5ca4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5550557047107355923, guid: c41070618c7806b4583ac68798da5ca4, type: 3}
+      propertyPath: m_Name
+      value: Dialogue Trigger (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5550557047381190732, guid: c41070618c7806b4583ac68798da5ca4, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.6744444
+      objectReference: {fileID: 0}
+    - target: {fileID: 5550557047381190732, guid: c41070618c7806b4583ac68798da5ca4, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 9.845498
+      objectReference: {fileID: 0}
+    - target: {fileID: 5550557047381190732, guid: c41070618c7806b4583ac68798da5ca4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 5550557047381190732, guid: c41070618c7806b4583ac68798da5ca4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.5584
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c41070618c7806b4583ac68798da5ca4, type: 3}
+--- !u!1 &976237018 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1039127490311093425, guid: c41070618c7806b4583ac68798da5ca4, type: 3}
+  m_PrefabInstance: {fileID: 976237017}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1042360438
 PrefabInstance:
   m_ObjectHideFlags: 0
