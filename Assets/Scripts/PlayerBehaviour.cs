@@ -15,6 +15,8 @@ public class PlayerBehaviour : MonoBehaviour
 
             dialogue.SetActive(true);
             dialogue.transform.parent = transform.parent;
+            
+            Instantiate(Pop, this.transform.position + new Vector3(1, 1, 0), this.transform.rotation);
             Destroy(this.gameObject);
         }
     }

@@ -7,6 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -9031059572735397535, guid: c66ee908344bf9e47b4d7caa1d40482f, type: 3}
+      propertyPath: Pop
+      value: 
+      objectReference: {fileID: 615472751462543592, guid: de117b91167e9a24cbb7bb8a31097883, type: 3}
     - target: {fileID: 4970659368057805715, guid: c66ee908344bf9e47b4d7caa1d40482f, type: 3}
       propertyPath: m_Name
       value: Enemy with translating spike
